@@ -1,0 +1,149 @@
+html { 
+  height: 100%;
+  margin: 0px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+a:visited{ text-decoration: none;}
+
+#image-half {
+  display: block;
+  height: 60%;
+  background-color:black;
+  background-size: cover;	
+  position: relative;
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  height: 15%;
+  min-height: 50px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /*justify-content: space-between;*/
+  align-items: center;
+}
+
+#frame-title {
+  flex-basis: 25%;
+  text-align: right;
+}
+
+#navbar-menu {                    /*TABLE NAME*/
+  font-size: 0.5em;
+  width: auto;
+  margin-right:20%;
+  margin-left: auto;
+  border-collapse: collapse;
+}
+
+#navbar-menu  th {
+  padding: 10px;
+} 
+/*ENDS NAV BAR & STARTS MAIN TITLE*/
+
+#main-caption {
+  display: block;
+  font-size: 1.25em;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  max-height: 200px;
+  overflow: auto;
+  line-height: 1.5;
+}
+/*ENDS MAIN TITLE & STARTS BUTTONS*/
+
+#main-buttons{
+  display: block;
+  text-align: center;
+  margin: auto;
+  width:25%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a:-webkit-any-link { 
+  text-decoration:none;
+  color: white;
+}
+
+#button-get, #button-get:visited, #button-get:hover {
+  display: inline;
+  color: white;
+  border: solid 1px rgb(26,88,165);
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.7em;
+  cursor: pointer;
+  padding: 12px 20px;
+  background-color: rgb(26,88,165);
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#button-feature, #button-feature:visited, #button-feature:hover {
+  display: inline;
+  color: white;
+  border: solid 1px white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.7em;
+  cursor: pointer;
+  padding: 12px 20px;
+  /*background-color: none;*/
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+#content-half a:-webkit-any-link { 
+  text-decoration:none;
+  color: black;
+}
+
+#content-half {
+  display: flex;
+  height: 40%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /*justify-content: space-around;*/
+  align-items: center;
+  color: rgb(26,88,165);
+}
+
+#content-half .blurb {
+  margin: 5%;
+  text-align: justify;
+}
+
+#content-half .blurb p {
+  font-size: 0.85em;
+}
+
+#content-half .blurb a {
+  color: rgb(26,88,165);
+  font-weight: bold;
+  font-size: 0.5em;
+}
+
+  .fas, .far {
+    font-size: 2.5em;
+  }
+
+
+
+
+/*
+   fas fa-mobile-alt
+   far fa-wallet
+   far fa-lightbulb	
+ */			
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    
+    
+    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+
+    
+    <title>Bootstrap In CSS</title>
+  </head>
+  <body>
+
+    <section id="image-half">								<!-- BEGINS TOP HALF -->
+      
+      <div id="navbar">
+	<h4 id="frame-title"><a href="#">FRAME</a></h4>
+	<table id="navbar-menu">
+	  <tr>
+	    <th><a href="#">HOME</a></th>
+	    <th><a href="#">FEATURES</a></th>
+	    <th><a href="#">PRICING</a></th>
+	    <th><a href="#">REVIEWS</a></th>
+	    <th><a href="#">CONTACT</a></th>
+	  </tr>
+	</table>
+      </div>
+      
+      <div id="main-caption">
+	<h1>uicookies.com Creates High Quality Bootstrap Template For <i>Free</i></h1>
+      </div>
+      
+      <div id="main-buttons">
+	<div id="button-get">
+	  <a href="#">Get Them Now</a>
+	</div>                          																								
+	
+	<div id="button-feature">
+	  <a href="#">See Features</a>
+	</div>
+      </div>
+      
+    </section>                              						<!-- ENDS TOP HALF -->
+    
+    <section id="content-half">						<!-- BEGINS BOTTOM HALF -->
+      
+      <div class="blurb" id="blurb1">																		<!--FIRST BLURB -->
+	<div class="fas fa-mobile-alt"></div>	
+	<div class="blurb-title"><h4>Mobile Optimize</h4></div>			
+	<div class="blurb-content">
+	  <p> Far, far away - behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+	    blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+	  </p>
+	  <a href="#">Learn More ></a>
+	</div>	
+      </div>
+      
+      <div class="blurb" id="blurb2">																		<!--SECOND BLURB -->
+	<div class="fas fa-wallet"></div>
+	<div class="blurb-title"><h4>Increase Revenue</h4></div>
+	<div class="blurb-content">
+	  <p>Far, far away - behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+	    blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+	  </p>
+	  <a href="#">Learn More ></a>
+	</div>	
+      </div>
+      
+      <div class="blurb" id="blurb3">																		<!--THIRD BLURB -->
+	<div class="far fa-lightbulb"></div>
+	<div class="blurb-title"><h4>Smart Idea</h4></div>
+	<div class="blurb-content">
+	  <p>Far, far away - behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+	    blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+	  </p>
+	  <a href="#">Learn More ></a>
+	</div>	
+      </div>
+      
+      
+      
+      
+      
+    </section>														<!-- ENDS BOTTOM HALF -->
+
+
+    buttons
+    collumns
+    rows
+    navbar
+    anything else i can find 
+  </body>
+</html>
